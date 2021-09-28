@@ -127,7 +127,7 @@
 
 <distributionManagement>
 
-<repository>
+<!--<repository>
 <id>nexus</id>
 <name>drp</name>
 <url>http://localhost:8081/repository/maven-release/</url>
@@ -138,7 +138,8 @@
 <name>ufeed</name>
 <url>http://localhost:8081/repository/maven-snapshot/</url>
 </snapshotRepository>
- 
+ -->
+	
 </distributionManagement>
 
 <!--
