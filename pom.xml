@@ -17,7 +17,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 	 	<sonar.host.url>http://localhost:9000/</sonar.host.url>
-		 <sonar.login>052297396ac9be71be3f3e3c3307b2ab788de211</sonar.login>
+		<sonar.login>3210ea7bcd4bba5808604edab633701b8fb2a313</sonar.login>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -124,10 +124,10 @@
   </dependencies>
 
 
-
+<!--
 <distributionManagement>
 
-<!--<repository>
+<repository>
 <id>nexus</id>
 <name>drp</name>
 <url>http://localhost:8081/repository/maven-release/</url>
@@ -138,11 +138,10 @@
 <name>ufeed</name>
 <url>http://localhost:8081/repository/maven-snapshot/</url>
 </snapshotRepository>
- -->
-	
+ 
 </distributionManagement>
 
-<!--
+
 
 <repositories>
  <repository> 
